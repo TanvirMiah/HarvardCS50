@@ -11,7 +11,7 @@ int main(int argc, string argv[])
         return 1;
     }
 
-    char k = argv[1];
+    int k = atoi(argv[1]);
 
     char plaintext[100];
     printf("plaintext: ");
